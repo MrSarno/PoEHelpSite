@@ -1,41 +1,47 @@
 ---
 seo:
-  title: Write beautiful docs with Markdown
-  description: Ship fast, flexible, and SEO-optimized documentation with beautiful
-    design out of the box. Docus brings together the best of the Nuxt ecosystem.
-    Powered by Nuxt UI Pro.
+  title: PoE Community Help
+  description: Welcome to PoE Community Help! The best resource for Path of Exile players in need of Technical Support.
 ---
 
 ::u-page-hero
 #title
-Write beautiful docs with Markdown
+Welcome to PoE Community Help!
 
 #description
-Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box.
-
-Docus brings the best of the Nuxt ecosystem into one CLI.
+The best resource for Path of Exile players in need of Technical Support.
 
 #links
-  :::u-button
+:::u-button
   ---
-  color: neutral
-  size: xl
-  to: /getting-started/installation
-  trailing-icon: i-lucide-arrow-right
+color: neutral
+size: xl
+to: /getting-started/installation
+trailing-icon: i-lucide-arrow-right
   ---
-  Get started
-  :::
+Gather your system information
+:::
 
-  :::u-button
+:::u-button
+---
+color: neutral
+size: xl
+to: [https://github.com/nuxt-ui-pro/docus](https://www.pathofexile.com/forum/new-thread/248)
+trailing-icon: i-lucide-pencil
+variant: outline
   ---
-  color: neutral
-  icon: simple-icons-github
-  size: xl
-  to: https://github.com/nuxt-ui-pro/docus
-  variant: outline
+Post in Technical Support
+:::
+
+:::u-button
+---
+color: neutral
+size: xl
+to: [https://github.com/nuxt-ui-pro/docus](https://www.pathofexile.com/forum/new-thread/248)
+trailing-icon: i-lucide-search
   ---
-  Star on GitHub
-  :::
+Or search for help with Ctrl K / CMD K
+:::
 ::
 
 ::u-page-section
@@ -43,81 +49,82 @@ Docus brings the best of the Nuxt ecosystem into one CLI.
 Shipped with many features
 
 #features
-  :::u-page-feature
+:::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://nuxt.com
+icon: i-simple-icons-nuxt
+target: _blank
+to: https://nuxt.com
   ---
-  #title
-  Built with [Nuxt 4]{.text-primary}
-  
-  #description
-  Optimized by the most famous Vue framework. Docus gives you everything you need to build fast, performant, and SEO-friendly websites.
-  :::
+#title
+Built with [Nuxt 4]{.text-primary}
 
-  :::u-page-feature
-  ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/
-  ---
-  #title
-  Powered by [Nuxt UI Pro]{.text-primary}
-  
-  #description
-  Beautiful out of the box, minimal by design but highly customizable. Docus leverages Nuxt UI Pro to give you the best docs writing experience with zero boilerplate, just focus on your content.
-  :::
+#description
+Optimized by the most famous Vue framework. Docus gives you everything you need to build fast, performant, and SEO-friendly websites.
+:::
 
-  :::u-page-feature
+:::u-page-feature
+---
+icon: i-simple-icons-nuxt
+target: _blank
+to: https://ui.nuxt.com/
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://content.nuxt.com
-  ---
-  #title
-  Enhanced Markdown syntax by [Nuxt Content]{.text-primary}
-  
-  #description
-  The only thing you need to take care about is writing your content. Write your pages in Markdown and extend with MDC syntax to embed Nuxt UI or custom Vue components. Structure, routing, and rendering are handled for you.
-  :::
+#title
+Powered by [Nuxt UI Pro]{.text-primary}
 
-  :::u-page-feature
-  ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://nuxt.com/docs/guide/directory-structure/app-config
-  ---
-  #title
-  Customize with [Nuxt App Config]{.text-primary}
-  
-  #description
-  Update colors, social links, header logos and component styles globally using the `app.config.ts`, no direct code modifications required.
-  :::
+#description
+Beautiful out of the box, minimal by design but highly customizable. Docus leverages Nuxt UI Pro to give you the best docs writing experience with zero boilerplate, just focus on your content.
+:::
 
-  :::u-page-feature
+:::u-page-feature
+---
+icon: i-simple-icons-nuxt
+target: _blank
+to: https://content.nuxt.com
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://content.nuxt.com/studio
-  ---
-  #title
-  Collaborate on [Nuxt Studio]{.text-primary}
-  
-  #description
-  Write and manage your content visually, with zero Markdown knowledge required. Let your non technical colleagues collaborate on the documentation and integrate Vue components without code skills.
-  :::
+#title
+Enhanced Markdown syntax by [Nuxt Content]{.text-primary}
 
-  :::u-page-feature
+#description
+The only thing you need to take care about is writing your content. Write your pages in Markdown and extend with MDC syntax to embed Nuxt UI or custom Vue components. Structure, routing, and rendering are handled for you.
+:::
+
+:::u-page-feature
+---
+icon: i-simple-icons-nuxt
+target: _blank
+to: https://nuxt.com/docs/guide/directory-structure/app-config
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/components/content-search
+#title
+Customize with [Nuxt App Config]{.text-primary}
+
+#description
+Update colors, social links, header logos and component styles globally using the `app.config.ts`, no direct code modifications required.
+:::
+
+:::u-page-feature
+---
+icon: i-simple-icons-nuxt
+target: _blank
+to: https://content.nuxt.com/studio
   ---
-  #title
-  Built-in navigation and [full-text search]{.text-primary}
-  
-  #description
-  Only focus on ordering your content, Docus handles the search modal and auto-generates the side navigation for you.
-  :::
+#title
+Collaborate on [Nuxt Studio]{.text-primary}
+
+#description
+Write and manage your content visually, with zero Markdown knowledge required. Let your non technical colleagues collaborate on the documentation and integrate Vue components without code skills.
+:::
+
+:::u-page-feature
+---
+icon: i-simple-icons-nuxt
+target: _blank
+to: https://ui.nuxt.com/components/content-search
+  ---
+#title
+Built-in navigation and [full-text search]{.text-primary}
+
+#description
+Only focus on ordering your content, Docus handles the search modal and auto-generates the side navigation for you.
+:::
+
 ::
