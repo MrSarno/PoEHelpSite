@@ -1,0 +1,31 @@
+# Client Crashes
+
+> Guidance for troubleshooting the client crashing to the Desktop.
+
+The best troubleshooting available for game client crashes depends on the behaviour you observe.
+
+### Crashing on Launch
+
+If the game client is crashing on launch or even failing to run at all, these are the most commonly successful troubleshooting steps to attempt;
+
+<steps level="4">
+
+#### Try a different graphics API - particularly if it was changed recently
+
+- Find and open the [the config file](/information/config-file) in Notepad (Windows) or TextEdit (macOS)
+- In the <span>
+
+Display
+
+</span>
+
+ section, find the `device_type` line
+- Change it to another valid option; your choices are `Vulkan`, `DirectX12`, and `DirectX11`.
+
+#### Run docus CLI to run your dev server
+
+```bash [Terminal]
+docus dev
+```
+
+</steps>

@@ -1,0 +1,19 @@
+# Disconnections
+
+> Getting disconnected from the game server.
+
+<note>
+
+If you have missing portals or loot when logging back in, see the [Instance Crashes](/troubleshooting/crashes/instance) page instead.
+
+</note>
+
+<note>
+
+If you have gotten disconnected, you'll get an error message saying as much. Otherwise, visit the [Client Crashes](/troubleshooting/crashes/client) page instead.
+
+</note>
+
+See the page on testing your [server connection](/information/server-connection), and post a new thread in the Technical Support section of the Path of Exile forum for your language.
+
+*PH*
