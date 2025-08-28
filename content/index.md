@@ -1,15 +1,19 @@
 ---
 seo:
-  title: PoE Community Help
-  description: Welcome to PoE Community Help! The best resource for Path of Exile players in need of Technical Support.
+  title: Write beautiful docs with Markdown
+  description: Ship fast, flexible, and SEO-optimized documentation with beautiful
+    design out of the box. Docus brings together the best of the Nuxt ecosystem.
+    Powered by Nuxt UI Pro.
 ---
 
 ::u-page-hero
 #title
-Welcome to PoE Community Help!
+Write beautiful docs with Markdown
 
 #description
-The best resource for Path of Exile players in need of Technical Support.
+Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box.
+
+Docus brings the best of the Nuxt ecosystem into one CLI.
 
 #links
   :::u-button
@@ -19,28 +23,18 @@ The best resource for Path of Exile players in need of Technical Support.
   to: /getting-started/installation
   trailing-icon: i-lucide-arrow-right
   ---
-  Gather your system information
+  Get started
   :::
 
   :::u-button
   ---
   color: neutral
+  icon: simple-icons-github
   size: xl
-  to: [https://github.com/nuxt-ui-pro/docus](https://www.pathofexile.com/forum/new-thread/248)
-  trailing-icon: i-lucide-pencil
+  to: https://github.com/nuxt-ui-pro/docus
   variant: outline
   ---
-  Post in Technical Support
-  :::
-
-  :::u-button
-  ---
-  color: neutral
-  size: xl
-  to: [https://github.com/nuxt-ui-pro/docus](https://www.pathofexile.com/forum/new-thread/248)
-  trailing-icon: i-lucide-search
-  ---
-  Or search for help with Ctrl K / CMD K
+  Star on GitHub
   :::
 ::
 
@@ -126,17 +120,4 @@ Shipped with many features
   #description
   Only focus on ordering your content, Docus handles the search modal and auto-generates the side navigation for you.
   :::
-
-<template>
-  <UUser
-    to="https://github.com/nuxt/ui-pro"
-    target="_blank"
-    name="Nuxt UI Pro"
-    description="Premium components for Vue"
-    :avatar="{
-      src: 'https://github.com/nuxt-ui-pro.png'
-    }"
-  />
-</template>
-    
 ::
