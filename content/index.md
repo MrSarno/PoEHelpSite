@@ -1,123 +1,99 @@
 ---
 seo:
-  title: Write beautiful docs with Markdown
-  description: Ship fast, flexible, and SEO-optimized documentation with beautiful
-    design out of the box. Docus brings together the best of the Nuxt ecosystem.
-    Powered by Nuxt UI Pro.
+  title: PoE Community Help
+  description: Welcome to PoE Community Help! The best resource for Path of Exile players in need of Technical Support.
 ---
 
 ::u-page-hero
 #title
-Write beautiful docs with Markdown
+PoE Community Help
 
 #description
-Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box.
+Welcome to PoE Community Help!
 
-Docus brings the best of the Nuxt ecosystem into one CLI.
-
-#links
-  :::u-button
-  ---
-  color: neutral
-  size: xl
-  to: /getting-started/installation
-  trailing-icon: i-lucide-arrow-right
-  ---
-  Get started
-  :::
-
-  :::u-button
-  ---
-  color: neutral
-  icon: simple-icons-github
-  size: xl
-  to: https://github.com/nuxt-ui-pro/docus
-  variant: outline
-  ---
-  Star on GitHub
-  :::
-::
+The best resource for Path of Exile players in need of Technical Support.
 
 ::u-page-section
 #title
-Shipped with many features
+Find help with common issues
 
 #features
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
+  icon:
   target: _blank
   to: https://nuxt.com
   ---
   #title
-  Built with [Nuxt 4]{.text-primary}
+  Packed with [self-help guides]{.text-primary}
   
   #description
-  Optimized by the most famous Vue framework. Docus gives you everything you need to build fast, performant, and SEO-friendly websites.
+  Wherever possible, PoE Community Help provides simple, step-by-step instructions so you can find a solution without waiting on anybody else.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
+  icon:
   target: _blank
   to: https://ui.nuxt.com/
   ---
   #title
-  Powered by [Nuxt UI Pro]{.text-primary}
+  First-class [macOS support]{.text-primary}
   
   #description
-  Beautiful out of the box, minimal by design but highly customizable. Docus leverages Nuxt UI Pro to give you the best docs writing experience with zero boilerplate, just focus on your content.
+  Those playing on macOS get the same level of support as those on Windows - unlike the sticky threads in the Technical Support section of the official forum!
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
+  icon:
   target: _blank
   to: https://content.nuxt.com
   ---
   #title
-  Enhanced Markdown syntax by [Nuxt Content]{.text-primary}
+  
+  [No assumed]{.text-primary} knowledge
   
   #description
-  The only thing you need to take care about is writing your content. Write your pages in Markdown and extend with MDC syntax to embed Nuxt UI or custom Vue components. Structure, routing, and rendering are handled for you.
+  PoE Community Help is designed to be easily understandable by everyone. You shouldn't need a Computer Science degree to improve your FPS in Path of Exile!
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
+  icon:
   target: _blank
   to: https://nuxt.com/docs/guide/directory-structure/app-config
   ---
   #title
-  Customize with [Nuxt App Config]{.text-primary}
+  Get the [best help possible]{.text-primary} from others
   
   #description
-  Update colors, social links, header logos and component styles globally using the `app.config.ts`, no direct code modifications required.
+  Not able to go it alone? Find out what information others need to help - so they can spend less time asking for information, and more time providing solutions.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
+  icon:
   target: _blank
   to: https://content.nuxt.com/studio
   ---
   #title
-  Collaborate on [Nuxt Studio]{.text-primary}
+  Information that's [logically arranged]{.text-primary}
   
   #description
-  Write and manage your content visually, with zero Markdown knowledge required. Let your non technical colleagues collaborate on the documentation and integrate Vue components without code skills.
+  Looking for ways of collecting information, or troubleshooting different types of FPS issues? The pages you're looking for are right next to each other. Simple!
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
+  icon:
   target: _blank
   to: https://ui.nuxt.com/components/content-search
   ---
   #title
-  Built-in navigation and [full-text search]{.text-primary}
+  Just [search]{.text-primary} for whatever you need
   
   #description
-  Only focus on ordering your content, Docus handles the search modal and auto-generates the side navigation for you.
+  Know exactly what you're looking for? No need to go digging for it - just search for e.g. "`disconnection`" and instantly find the pages you need.
   :::
 ::
