@@ -1,0 +1,1 @@
+import{r as n}from"./BZdomn_g.js";import a from"./DgeBgql2.js";import{z as s,H as e,i as t,w as i,W as c}from"./DFfVshQ4.js";const l={__name:"ProseWarning",setup(p){const o=s();return(r,f)=>(t(),e(a,{color:"warning",icon:c(o).ui.icons.warning},{default:i(()=>[n(r.$slots,"default",{mdcUnwrap:"p"})]),_:3},8,["icon"]))}};export{l as default};
