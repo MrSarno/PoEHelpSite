@@ -15,14 +15,14 @@ The best resource for Path of Exile players in need of Technical Support.
 
 ::u-page-section
 #title
-Find help with common issues
+Just open the search bar and find what you need!
 
 #features
   :::u-page-feature
   ---
   icon:
-  target: _blank
-  to: https://nuxt.com
+  target:
+  to:
   ---
   #title
   Packed with [self-help guides]{.text-primary}
@@ -34,8 +34,8 @@ Find help with common issues
   :::u-page-feature
   ---
   icon:
-  target: _blank
-  to: https://ui.nuxt.com/
+  target:
+  to:
   ---
   #title
   First-class [macOS support]{.text-primary}
@@ -47,8 +47,8 @@ Find help with common issues
   :::u-page-feature
   ---
   icon:
-  target: _blank
-  to: https://content.nuxt.com
+  target:
+  to:
   ---
   #title
   
@@ -61,8 +61,8 @@ Find help with common issues
   :::u-page-feature
   ---
   icon:
-  target: _blank
-  to: https://nuxt.com/docs/guide/directory-structure/app-config
+  target:
+  to:
   ---
   #title
   Get the [best help possible]{.text-primary} from others
@@ -74,26 +74,26 @@ Find help with common issues
   :::u-page-feature
   ---
   icon:
-  target: _blank
-  to: https://content.nuxt.com/studio
-  ---
-  #title
-  Information that's [logically arranged]{.text-primary}
-  
-  #description
-  Looking for ways of collecting information, or troubleshooting different types of FPS issues? The pages you're looking for are right next to each other. Simple!
-  :::
-
-  :::u-page-feature
-  ---
-  icon:
-  target: _blank
-  to: https://ui.nuxt.com/components/content-search
+  target:
+  to:
   ---
   #title
   Just [search]{.text-primary} for whatever you need
   
   #description
   Know exactly what you're looking for? No need to go digging for it - just search for e.g. "`disconnection`" and instantly find the pages you need.
+  :::
+
+  :::u-page-feature
+  ---
+  icon:
+  target:
+  to:
+  ---
+  #title
+  Information that's [logically arranged]{.text-primary}
+  
+  #description
+  Looking for ways of collecting information, or troubleshooting different types of FPS issues? The pages you're looking for are right next to each other. Simple!
   :::
 ::
