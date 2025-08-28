@@ -1,19 +1,15 @@
 ---
 seo:
-  title: Write beautiful docs with Markdown
-  description: Ship fast, flexible, and SEO-optimized documentation with beautiful
-    design out of the box. Docus brings together the best of the Nuxt ecosystem.
-    Powered by Nuxt UI Pro.
+  title: PoE Community Help
+  description: Welcome to PoE Community Help! The best resource for Path of Exile players in need of Technical Support.
 ---
 
 ::u-page-hero
 #title
-Write beautiful docs with Markdown
+Welcome to PoE Community Help!
 
 #description
-Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box.
-
-Docus brings the best of the Nuxt ecosystem into one CLI.
+The best resource for Path of Exile players in need of Technical Support.
 
 #links
   :::u-button
@@ -23,18 +19,28 @@ Docus brings the best of the Nuxt ecosystem into one CLI.
   to: /getting-started/installation
   trailing-icon: i-lucide-arrow-right
   ---
-  Get started
+  Gather your system information
   :::
 
   :::u-button
   ---
   color: neutral
-  icon: simple-icons-github
   size: xl
-  to: https://github.com/nuxt-ui-pro/docus
+  to: [https://github.com/nuxt-ui-pro/docus](https://www.pathofexile.com/forum/new-thread/248)
+  trailing-icon: i-lucide-pencil
   variant: outline
   ---
-  Star on GitHub
+  Post in Technical Support
+  :::
+
+  :::u-button
+  ---
+  color: neutral
+  size: xl
+  to: [https://github.com/nuxt-ui-pro/docus](https://www.pathofexile.com/forum/new-thread/248)
+  trailing-icon: i-lucide-search
+  ---
+  Or search for help with Ctrl K / CMD K
   :::
 ::
 
@@ -120,4 +126,17 @@ Shipped with many features
   #description
   Only focus on ordering your content, Docus handles the search modal and auto-generates the side navigation for you.
   :::
+
+<template>
+  <UUser
+    to="https://github.com/nuxt/ui-pro"
+    target="_blank"
+    name="Nuxt UI Pro"
+    description="Premium components for Vue"
+    :avatar="{
+      src: 'https://github.com/nuxt-ui-pro.png'
+    }"
+  />
+</template>
+    
 ::
