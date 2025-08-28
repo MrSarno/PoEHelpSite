@@ -1,47 +1,41 @@
 ---
 seo:
-  title: PoE Community Help
-  description: Welcome to PoE Community Help! The best resource for Path of Exile players in need of Technical Support.
+  title: Write beautiful docs with Markdown
+  description: Ship fast, flexible, and SEO-optimized documentation with beautiful
+    design out of the box. Docus brings together the best of the Nuxt ecosystem.
+    Powered by Nuxt UI Pro.
 ---
 
 ::u-page-hero
 #title
-Welcome to PoE Community Help!
+Write beautiful docs with Markdown
 
 #description
-The best resource for Path of Exile players in need of Technical Support.
+Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box.
+
+Docus brings the best of the Nuxt ecosystem into one CLI.
 
 #links
-:::u-button
+  :::u-button
   ---
-color: neutral
-size: xl
-to: /getting-started/installation
-trailing-icon: i-lucide-arrow-right
+  color: neutral
+  size: xl
+  to: /getting-started/installation
+  trailing-icon: i-lucide-arrow-right
   ---
-Gather your system information
-:::
+  Get started
+  :::
 
-:::u-button
----
-color: neutral
-size: xl
-to: [https://github.com/nuxt-ui-pro/docus](https://www.pathofexile.com/forum/new-thread/248)
-trailing-icon: i-lucide-pencil
-variant: outline
+  :::u-button
   ---
-Post in Technical Support
-:::
-
-:::u-button
----
-color: neutral
-size: xl
-to: [https://github.com/nuxt-ui-pro/docus](https://www.pathofexile.com/forum/new-thread/248)
-trailing-icon: i-lucide-search
+  color: neutral
+  icon: simple-icons-github
+  size: xl
+  to: https://github.com/nuxt-ui-pro/docus
+  variant: outline
   ---
-Or search for help with Ctrl K / CMD K
-:::
+  Star on GitHub
+  :::
 ::
 
 ::u-page-section
@@ -49,82 +43,81 @@ Or search for help with Ctrl K / CMD K
 Shipped with many features
 
 #features
-:::u-page-feature
+  :::u-page-feature
   ---
-icon: i-simple-icons-nuxt
-target: _blank
-to: https://nuxt.com
+  icon: i-simple-icons-nuxt
+  target: _blank
+  to: https://nuxt.com
   ---
-#title
-Built with [Nuxt 4]{.text-primary}
+  #title
+  Built with [Nuxt 4]{.text-primary}
+  
+  #description
+  Optimized by the most famous Vue framework. Docus gives you everything you need to build fast, performant, and SEO-friendly websites.
+  :::
 
-#description
-Optimized by the most famous Vue framework. Docus gives you everything you need to build fast, performant, and SEO-friendly websites.
-:::
-
-:::u-page-feature
----
-icon: i-simple-icons-nuxt
-target: _blank
-to: https://ui.nuxt.com/
+  :::u-page-feature
   ---
-#title
-Powered by [Nuxt UI Pro]{.text-primary}
-
-#description
-Beautiful out of the box, minimal by design but highly customizable. Docus leverages Nuxt UI Pro to give you the best docs writing experience with zero boilerplate, just focus on your content.
-:::
-
-:::u-page-feature
----
-icon: i-simple-icons-nuxt
-target: _blank
-to: https://content.nuxt.com
+  icon: i-simple-icons-nuxt
+  target: _blank
+  to: https://ui.nuxt.com/
   ---
-#title
-Enhanced Markdown syntax by [Nuxt Content]{.text-primary}
+  #title
+  Powered by [Nuxt UI Pro]{.text-primary}
+  
+  #description
+  Beautiful out of the box, minimal by design but highly customizable. Docus leverages Nuxt UI Pro to give you the best docs writing experience with zero boilerplate, just focus on your content.
+  :::
 
-#description
-The only thing you need to take care about is writing your content. Write your pages in Markdown and extend with MDC syntax to embed Nuxt UI or custom Vue components. Structure, routing, and rendering are handled for you.
-:::
-
-:::u-page-feature
----
-icon: i-simple-icons-nuxt
-target: _blank
-to: https://nuxt.com/docs/guide/directory-structure/app-config
+  :::u-page-feature
   ---
-#title
-Customize with [Nuxt App Config]{.text-primary}
-
-#description
-Update colors, social links, header logos and component styles globally using the `app.config.ts`, no direct code modifications required.
-:::
-
-:::u-page-feature
----
-icon: i-simple-icons-nuxt
-target: _blank
-to: https://content.nuxt.com/studio
+  icon: i-simple-icons-nuxt
+  target: _blank
+  to: https://content.nuxt.com
   ---
-#title
-Collaborate on [Nuxt Studio]{.text-primary}
+  #title
+  Enhanced Markdown syntax by [Nuxt Content]{.text-primary}
+  
+  #description
+  The only thing you need to take care about is writing your content. Write your pages in Markdown and extend with MDC syntax to embed Nuxt UI or custom Vue components. Structure, routing, and rendering are handled for you.
+  :::
 
-#description
-Write and manage your content visually, with zero Markdown knowledge required. Let your non technical colleagues collaborate on the documentation and integrate Vue components without code skills.
-:::
-
-:::u-page-feature
----
-icon: i-simple-icons-nuxt
-target: _blank
-to: https://ui.nuxt.com/components/content-search
+  :::u-page-feature
   ---
-#title
-Built-in navigation and [full-text search]{.text-primary}
+  icon: i-simple-icons-nuxt
+  target: _blank
+  to: https://nuxt.com/docs/guide/directory-structure/app-config
+  ---
+  #title
+  Customize with [Nuxt App Config]{.text-primary}
+  
+  #description
+  Update colors, social links, header logos and component styles globally using the `app.config.ts`, no direct code modifications required.
+  :::
 
-#description
-Only focus on ordering your content, Docus handles the search modal and auto-generates the side navigation for you.
-:::
+  :::u-page-feature
+  ---
+  icon: i-simple-icons-nuxt
+  target: _blank
+  to: https://content.nuxt.com/studio
+  ---
+  #title
+  Collaborate on [Nuxt Studio]{.text-primary}
+  
+  #description
+  Write and manage your content visually, with zero Markdown knowledge required. Let your non technical colleagues collaborate on the documentation and integrate Vue components without code skills.
+  :::
 
+  :::u-page-feature
+  ---
+  icon: i-simple-icons-nuxt
+  target: _blank
+  to: https://ui.nuxt.com/components/content-search
+  ---
+  #title
+  Built-in navigation and [full-text search]{.text-primary}
+  
+  #description
+  Only focus on ordering your content, Docus handles the search modal and auto-generates the side navigation for you.
+  :::
 ::
