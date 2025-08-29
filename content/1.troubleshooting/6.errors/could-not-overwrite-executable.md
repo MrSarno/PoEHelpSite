@@ -10,8 +10,39 @@ seo:
 
 This permissions-based error can crop up late in the process of patching your client.
 
-Look for a `PathOfExile.tmp` file. If you can find one, delete the PathOfExile.exe file and rename the other file to "PathOfExile.exe".
+## The Most Common Workaround
 
 ::note
-Typically, the above workaround allows the patch process to continue with no further problems.
+It is advisable to start your computer before following the below instructions.
+::
+
+::steps{level="4"}
+#### Go to your Path of Exile install directory
+The default location is `%ProgramFiles(x86)%\Grinding Gear Games\Path of Exile`
+::tip
+Copy and paste the above into File Explorer's address bar!
+::
+#### Look for a `PathOfExile.tmp` file
+
+#### If you can find one, delete the file called `PathOfExile.exe`
+::warning
+Do not delete the file with ".tmp" at the end!
+::
+#### Rename the `PathOfExile.tmp` file so that it ends in ".exe" instead
+::
+
+## Other Troubleshooting
+
+If the above steps don't work, try the troubleshooting below.
+
+::steps{level="4"}
+#### Close the game's launcher
+#### Find your `release` folder
+The default location for it is in `%UserProfile%\Documents\My Games\Path of Exile`
+::tip
+Copy and paste the above into File Explorer's address bar!
+::
+#### Delete the release folder
+
+#### Run the launcher again
 ::
