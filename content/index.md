@@ -9,9 +9,9 @@ seo:
 PoE Community Help
 
 #description
-Welcome to PoE Community Help!
-
 The best resource for Path of Exile players in need of Technical Support.
+
+This website is neither affiliated with, nor endorsed by, Grinding Gear Games.
 
 ::u-page-section
 #title
