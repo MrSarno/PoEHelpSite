@@ -1,6 +1,6 @@
 ---
 title: "Could Not Overwrite Executable"
-description: Troubleshooting this Path of Exile connection failure error message
+description: Troubleshooting this Path of Exile error message
 navigation:
   icon:
 seo:
@@ -8,12 +8,12 @@ seo:
   description: Troubleshooting this Path of Exile error message.
 ---
 
-This permissions-based error can crop up late in the process of patching your client.
+This permissions-based error can crop up late in the process of patching the standalone client.
 
 ## The Most Common Workaround
 
 ::note
-It is advisable to start your computer before following the below instructions.
+It is advisable to restart your computer before following the below instructions.
 ::
 
 ::steps{level="4"}
