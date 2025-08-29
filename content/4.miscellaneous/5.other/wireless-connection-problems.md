@@ -1,4 +1,4 @@
----
+[---
 title: Wireless Connection Problems
 description: Common issues affecting those using WiFi
 navigation:
