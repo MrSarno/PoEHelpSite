@@ -51,7 +51,7 @@ I have been unable to find a way to do this. As a Safari-based web browser, I as
 
 ### Safari
 
-::warning
+::caution
 In macOS 10.15 Catalina the option to disable Hardware Acceleration was removed from Safari.
 ::
 
