@@ -8,7 +8,7 @@ seo:
   description: Preventing web browsers from competing with PoE for your GPU's resources.
 ---
 
-Hardware Acceleration is enabled by default and allows your browser to utilise your GPU to speed up rendering.
+Hardware Acceleration allows your browser to utilise your GPU to speed up rendering.
 
 Unfortunately, when playing intense or poorly optimised games on your computer, a web browser placing a sustained workload on your video card can adversely impact your framerate. In addition, depending on your driver version your GPU's clock speeds may behave unpredictably while you are both gaming and using a web browser which has Hardware Acceleration enabled.
 
