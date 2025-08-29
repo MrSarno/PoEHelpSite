@@ -8,4 +8,4 @@ seo:
   description: Troubleshooting this Path of Exile error message.
 ---
 
-Placeholder McPlaceholderFace
+PH
