@@ -8,6 +8,23 @@ seo:
   description: How to reach out to the community for assistance
 ---
 
+## How to Post
+
+The more information you include in your post, the quicker and easier it will be for others to help you.
+
+::tip
+If you are posting a log file or debugging data, please include _a link_ to it elsewhere - e.g. on <a href="https://pastebin.com" target="_blank" rel="noopener noreferrer">Pastebin</a>.
+::
+
+You should _always_ include at least the following information;
+- Whether the issue is with Path of Exile 1 or Path of Exile 2
+- An overview of the problem
+- If you are getting an error message, either quote **all** of it or provide a screenshot
+- Are you playing on Windows, macOS, Linux, Xbox, or PlayStation?
+- If using a desktop or laptop, clarify which client you use (Steam / standalone / Epic Games Store)
+
+## Where to Post
+
 ::note
 GGG do not offer Technical Support; only other players help people on the forum.
 ::
@@ -27,12 +44,3 @@ If the forum for your language is not very active, consider posting on the Engli
 | Spanish              | https://es.pathofexile.com/forum/new-thread/1194 |
 | Japanese             | https://jp.pathofexile.com/forum/new-thread/1885 |
 | Korean               | https://poe.game.daum.net/forum/new-thread/1416 |
-
-The more information you include in your post, the quicker and easier it will be for others to help you.
-
-You should _always_ include at least the following information;
-- Whether the issue is with Path of Exile 1 or Path of Exile 2
-- An overview of the problem
-- If you are getting an error message, either quote **all** of it or provide a screenshot
-- Are you playing on Windows, macOS, Linux, Xbox, or PlayStation?
-- If using a desktop or laptop, clarify which client you use (Steam / standalone / Epic Games Store)
