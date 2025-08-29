@@ -31,15 +31,6 @@ These programs may seek to avoid downloads while you play games they manage, but
 - Ubisoft Connect (AKA Uplay)
 - Xbox App
 
-### Websites
-
-::tip
-If one of the following is responsible, try disabling `Hardware Acceleration` in your web browser.
-::
-
-- Twitch
-- YouTube
-
 #### Driver Packages
 
 - AMD Adrenaline
