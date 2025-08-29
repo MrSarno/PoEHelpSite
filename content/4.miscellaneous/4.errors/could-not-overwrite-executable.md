@@ -1,6 +1,6 @@
 ---
 title: "Could Not Overwrite Executable"
-description: Troubleshooting this Path of Exile error message
+description: Troubleshooting this Path of Exile connection failure error message
 navigation:
   icon:
 seo:
