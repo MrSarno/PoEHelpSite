@@ -12,6 +12,6 @@ seo:
 There is only limited information available regarding this error message.
 ::
 
-This error message appears to be caused by a misconfiguration on GGG's end.
+This error appears to be caused by a misconfiguration on GGG's end.
 
 Either [Create a Thread in Technical Support](/miscellaneous/other/create-a-thread-in-technical-support) or email support@grindinggear.com to inform them of the issue.
