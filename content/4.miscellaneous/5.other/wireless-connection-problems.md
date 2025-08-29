@@ -14,9 +14,10 @@ The lack of shielding afforded to such internet traffic makes problems such as l
 
 In order of preference;
 
-- Wired connections where devices are plugged directly into the router using an Ethernet cable are optimal
-- Powerline Adapter Kits and WiFi solutions are about equally reliable - and which is best for you can change over time 
-- Mobile hotspots will be more inconsistent than WiFi in almost all situations
+- Wired connections where devices are plugged directly into the router using an Ethernet cable 
+- Powerline Adapter Kits and WiFi solutions are about equally reliable 
+  - Due to their inconsistency, which of the two is best for you can change over time 
+- Mobile hotspots will be more inconsistent than WiFi in almost all situations 
 - Satellite connections can involve severe latency values and are not suitable for online gaming
 
 ## Troubleshooting
