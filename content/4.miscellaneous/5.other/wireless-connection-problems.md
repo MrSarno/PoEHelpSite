@@ -25,7 +25,7 @@ In order of preference;
 In cases where it simply isn't possible to use an Ethernet cable, please see below.
 
 ::steps{level="4"}
-#### Move your desktop, laptop, handheld, or console closer to your router if at all possible
+#### Move your device closer to your router if at all possible
 #### Try to avoid large obstructions - particularly electrical appliances
 #### See if changing to a different wireless channel improves stability
 #### Try power cycling your network devices
