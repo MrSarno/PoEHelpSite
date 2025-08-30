@@ -21,7 +21,7 @@ The default locations are;
 - **Standalone:** %ProgramFiles(x86)%\Grinding Gear Games\Path of Exile
 - **Epic Games:** %ProgramFiles%\Epic Games\PathOfExile
 ::tip
-Copy & paste the below right into File Explorer's address bar!
+Copy & paste the above right into File Explorer's address bar!
 ::
 #### Click on `PathOfExile.exe`
 #### Click the :kbd{value="Add"} button
