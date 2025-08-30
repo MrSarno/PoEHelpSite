@@ -8,9 +8,11 @@ seo:
   description: A Path of Exile setting that pertains to gamepads.
 ---
 
-If using controller on PC, turn off vibration setting;
+If using controller on PC, disable vibrations;
 
-- Open the `Options` menu
-- Switch to the `Input` tab
-- Find the `Controller Vibration (Master)` setting
-- Turn it off
+::steps{level="4"}
+#### Open Path of Exile's Options menu
+#### Switch to the `Input` tab
+#### Find the `Controller Vibration (Master)` setting
+#### Turn it off
+::
