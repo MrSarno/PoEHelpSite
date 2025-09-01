@@ -20,33 +20,33 @@ The steps for doing so on some common web browsers can be found below.
 
 ### Chrome
 
-- Enter `chrome://settings/?search=acceleration` into your browser's address bar
-- Toggle off `Use graphics acceleration when available`
-- Restart Chrome
+1. Enter `chrome://settings/?search=acceleration` into your browser's address bar
+2. Toggle off `Use graphics acceleration when available`
+3. Restart Chrome
 
 ### Edge
 
-- Enter `edge://settings/system/manageSystem#GraphicsAcceleration&1` into your browser's address bar
-- Toggle off `Use graphics acceleration when available`
-- Restart Edge
+1. Enter `edge://settings/system/manageSystem#GraphicsAcceleration&1` into your browser's address bar
+2. Toggle off `Use graphics acceleration when available`
+3. Restart Edge
 
 ### Firefox
 
-- Enter `about:preferences` into your browser's address bar
-- Scroll down to the "Performance" section
-- Untick `Use hardware acceleration when available`
-- Restart Firefox
+1. Enter `about:preferences` into your browser's address bar
+2. Scroll down to the "Performance" section
+3. Untick `Use hardware acceleration when available`
+4. Restart Firefox
 
 ### Opera
 
-- Enter `opera://settings/?search=acceleration` into your browser's address bar
-- Toggle off `Use graphics acceleration when available`
-- Restart Opera
+1. Enter `opera://settings/?search=acceleration` into your browser's address bar
+2. Toggle off `Use graphics acceleration when available`
+3. Restart Opera
 
 ### Orion
 
 ::warning
-I have been unable to find a way to do this. As a Safari-based web browser, I assume it isn't possible.
+There is no known method of doing this in Orion. As a Sarfari-based browser, it likely lacks the option.
 ::
 
 ### Safari
@@ -57,6 +57,6 @@ In macOS 10.15 Catalina the option to disable Hardware Acceleration was removed 
 
 ### Vivaldi
 
-- Enter `vivaldi:settings/webpages/` into your browser's address bar
-- Untick `Use Hardware Acceleration when Available`
-- Restart Vivaldi
+1. Enter `vivaldi:settings/webpages/` into your browser's address bar
+2. Untick `Use Hardware Acceleration when Available`
+3. Restart Vivaldi
