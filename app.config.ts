@@ -28,5 +28,9 @@ export default defineAppConfig({
       primary: "cyan",
       neutral: "slate"
     }
+  },
+
+  toc: {
+    title: "Table of Contents"
   }
 })
