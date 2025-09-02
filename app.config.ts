@@ -16,10 +16,7 @@ export default defineAppConfig({
     description: "The best resource for Path of Exile players encountering technical issues!"
   },
 
-  github: {
-    url: "",
-    branch: ""
-  },
+  github: false,
 
   socials: {},
 
