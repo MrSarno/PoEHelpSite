@@ -22,7 +22,8 @@ You should _always_ include at least the following information;
 - If you are getting an error message, either quote **all** of it or provide a screenshot
 - Are you playing on Windows, macOS, Linux, Xbox, or PlayStation?
 - If using a desktop or laptop, clarify which client you use (Steam / standalone / Epic Games Store)
-
+ 
+ 
 ## Where to Post
 
 ::note
