@@ -19,7 +19,8 @@ In order of preference;
   - Due to their inconsistency, which of the two is best for you can change over time 
 - Mobile hotspots will be more inconsistent than WiFi in almost all situations 
 - Satellite connections can involve severe latency values and are not suitable for online gaming
-
+ 
+ 
 ## Troubleshooting
 
 In cases where it simply isn't possible to use an Ethernet cable, please see below.
