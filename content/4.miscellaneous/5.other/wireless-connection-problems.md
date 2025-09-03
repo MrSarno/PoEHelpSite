@@ -25,6 +25,11 @@ In order of preference;
 In cases where it simply isn't possible to use an Ethernet cable, please see below.
 
 ::steps{level="4"}
+#### Prevent your OS from rapidly disabling and re-enabling your network adapter
+::note
+This article is specific to Windows Operating Systems and does not have a clear macOS analogue.
+::
+Toggle off [Wireless Adapter Power Savings](/miscellaneous/other/wireless-adapter-power-savings)
 #### Move your device closer to your router if at all possible
 #### Try to avoid large obstructions - particularly electrical appliances
 #### See if changing to a different wireless channel improves stability
