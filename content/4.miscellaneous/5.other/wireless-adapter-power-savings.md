@@ -9,7 +9,7 @@ seo:
 ---
 
 ::tip
-There are two sets of instructions below - it is recommended that you follow both.
+There are two sets of instructions below - it is recommended that you **follow both**.
 ::
  
  
