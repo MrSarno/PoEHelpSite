@@ -30,7 +30,8 @@ Do not delete the file with ".tmp" at the end!
 ::
 #### Rename the `PathOfExile.tmp` file so that it ends in ".exe" instead
 ::
-
+ 
+ 
 ## Other Troubleshooting
 
 If the above steps don't work, try the troubleshooting below.
