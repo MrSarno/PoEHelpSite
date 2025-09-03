@@ -15,7 +15,8 @@ However, when playing online games these downloads can cause network congestion 
 Thus, it is recommended that you pause any such downloads until you are finished playing.
 
 Some programs particularly prone to causing this issue for gamers can be found below.
-
+ 
+ 
 ## Common Causes
 
 ### Game Launchers
@@ -30,12 +31,14 @@ These programs will only seek to avoid downloads while you play games they manag
 - Steam
 - Ubisoft Connect (AKA Uplay)
 - Xbox App
-
+ 
+ 
 ### Driver Packages
 
 - AMD Adrenaline
 - Nvidia App / GeForce Experience
-
+ 
+ 
 ### Gaming-Related Applications
 
 ::note
@@ -47,12 +50,14 @@ The following can abruptly begin downloading mod updates or firmware patches at 
 - Overwolf
 - Razer Synapse
 - SteelSeries GG
-
+ 
+ 
 ### System Updates, etc.
 
 - Microsoft Store
 - Windows Update
-
+ 
+ 
 ### Other
 
 - Creative Cloud (Adobe)
