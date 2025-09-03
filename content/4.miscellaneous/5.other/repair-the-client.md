@@ -11,7 +11,8 @@ seo:
 ::note
 The different clients each have their own procedures to launch a scan for data corruption.
 ::
-
+ 
+ 
 ### Steam
 
 ::steps{level="4"}
@@ -23,7 +24,8 @@ The different clients each have their own procedures to launch a scan for data c
 
 #### Click on `Verify integrity of installed files`
 ::
-
+ 
+ 
 ### Standalone (Windows)
 
 ::steps{level="4"}
@@ -37,13 +39,15 @@ Copy and paste the above right into File Explorer's address bar!
 
 #### Double-click on `PackCheck.exe`
 ::
-
+ 
+ 
 ### Standalone (macOS)
 
 ::caution
 There is no known method for this client on this OS.
 ::
-
+ 
+ 
 ### Epic Games Store
 
 ::steps{level="4"}
