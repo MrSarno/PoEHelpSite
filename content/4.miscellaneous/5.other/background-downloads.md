@@ -31,12 +31,12 @@ These programs may seek to avoid downloads while you play games they manage, but
 - Ubisoft Connect (AKA Uplay)
 - Xbox App
 
-#### Driver Packages
+### Driver Packages
 
 - AMD Adrenaline
 - Nvidia App / GeForce Experience
 
-#### Gaming-Related Applications
+### Gaming-Related Applications
 
 ::note
 The following can abruptly begin downloading mod updates or firmware patches. Try closing them through Task Manager.
@@ -48,11 +48,11 @@ The following can abruptly begin downloading mod updates or firmware patches. Tr
 - Razer Synapse
 - SteelSeries GG
 
-#### System Updates, etc.
+### System Updates, etc.
 
 - Microsoft Store
 - Windows Update
 
-#### Other
+### Other
 
 - Creative Cloud (Adobe)
