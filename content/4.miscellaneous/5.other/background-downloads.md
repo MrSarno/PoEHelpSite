@@ -16,13 +16,13 @@ Thus, it is recommended that you pause any such downloads until you are finished
 
 Some programs particularly prone to causing this issue for gamers can be found below.
 
-::note
-These programs may seek to avoid downloads while you play games they manage, but are unlikely to avoid clashes with unrelated games.
-::
-
 ## Common Causes
 
 ### Game Launchers
+
+::note
+These programs will only seek to avoid downloads while you play games they manage - if they even do that much.
+::
 
 - Battle.net Desktop Application
 - EA App / Origin
@@ -39,7 +39,7 @@ These programs may seek to avoid downloads while you play games they manage, but
 ### Gaming-Related Applications
 
 ::note
-The following can abruptly begin downloading mod updates or firmware patches. Try closing them through Task Manager.
+The following can abruptly begin downloading mod updates or firmware patches at any time.
 ::
 
 - CurseForge
