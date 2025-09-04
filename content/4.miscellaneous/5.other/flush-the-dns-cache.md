@@ -22,8 +22,6 @@ You may be prompted to confirm this decision. This is normal.
 ::
 :::
 :::tabs-item{icon="i-lucide-apple" label="macOS"}
-
-
 ::steps{level="4"}
 #### Open the Terminal.
 #### Enter the following command
