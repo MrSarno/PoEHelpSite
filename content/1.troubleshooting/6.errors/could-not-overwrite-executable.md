@@ -8,6 +8,10 @@ seo:
   description: Troubleshooting this Path of Exile error message.
 ---
 
+::note
+This error message is only known to occur on Windows-based devices. Thus, troubleshooting focuses on that OS.
+::
+
 This permissions-based error can crop up late in the process of patching the standalone client.
 
 ## The Most Common Workaround
