@@ -8,6 +8,10 @@ seo:
   description: Step-by-step instructions on how to flush the DNS cache.
 ---
 
+::tip
+Flushing the DNS cache can resolve certain connectivity issues.
+::
+
 ::tabs{.w-full}
   :::tabs-item{icon="i-lucide-grid-2x2" label="Windows"}
     ::steps{level="4"}
