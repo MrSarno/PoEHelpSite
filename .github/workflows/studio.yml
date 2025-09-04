@@ -4,7 +4,7 @@ run-name: studio nuxt build
 on:
   push:
     branches:
-      - 'master'   # keep your trigger as-is (change to 'main' if you switch)
+      - 'master'
   workflow_dispatch:
 
 permissions:
@@ -41,15 +41,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: ${{ steps.pkgman.outputs.pm }}
 
       - name: Install dependencies
         run: |
-          if [ "${{ steps.pkgman.outputs.pm }}" = "pnpm" ]; then pnpm i --frozen-lockfile;
-          elif [ "${{ steps.pkgman.outputs.pm }}" = "yarn" ]; then yarn --frozen-lockfile;
-          else npm ci; fi
+          if [ "${{ steps.pkgman.outputs.pm }}" = "pnpm" ]; then pnpm install;
+          elif [ "${{ steps.pkgman.outputs.pm }}" = "yarn" ]; then yarn install;
+          else npm install; fi
 
-      # >>> The important change is here: do a full pre-render <<<
       - name: Pre-render site
         run: |
           if [ "${{ steps.pkgman.outputs.pm }}" = "pnpm" ]; then pnpm exec nuxt generate;
@@ -59,7 +57,6 @@ jobs:
           NUXT_CONTENT_PREVIEW_API: https://api.nuxt.studio
           NUXT_UI_PRO_LICENSE: ${{ secrets.NUXT_UI_PRO_LICENSE }}
 
-      # Keep your custom domain + disable Jekyll processing on Pages
       - name: Add CNAME and .nojekyll
         run: |
           echo "poecommunity.help" > .output/public/CNAME
@@ -70,4 +67,3 @@ jobs:
         with:
           branch: gh-pages
           folder: ./.output/public
-
