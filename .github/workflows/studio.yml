@@ -1,72 +1,73 @@
-
 name: studio-nuxt-build
 run-name: studio nuxt build
 
 on:
-  # Runs on pushes targeting the default branch
   push:
     branches:
-      - 'master'
-
-  # Allows you to run this workflow manually from the Actions tab
+      - 'master'   # keep your trigger as-is (change to 'main' if you switch)
   workflow_dispatch:
 
-# Add write workflow permissions
 permissions:
   contents: write
 
-# Allow one concurrent deployment
 concurrency:
   group: "pages"
   cancel-in-progress: true
 
 jobs:
-  # Build job
   build-and-deploy:
-    runs-on: ${{ matrix.os }}
-    defaults:
-      run:
-        working-directory: .
-
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-        node: [20]
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Identify package manager
+      - name: Detect package manager
         id: pkgman
         run: |
-          cache=`[ -f "./pnpm-lock.yaml" ] && echo "pnpm" || ([ -f "./package-lock.json" ] && echo "npm" || ([ -f "./yarn.lock" ] && echo "yarn" || echo ""))`
-          package_manager=`[ ! -z "$cache" ] && echo "$cache" || echo "npm"`
-          echo "cache=$cache" >> $GITHUB_OUTPUT
-          echo "package_manager=$package_manager" >> $GITHUB_OUTPUT
+          if [ -f pnpm-lock.yaml ]; then
+            echo "pm=pnpm" >> $GITHUB_OUTPUT
+          elif [ -f yarn.lock ]; then
+            echo "pm=yarn" >> $GITHUB_OUTPUT
+          else
+            echo "pm=npm" >> $GITHUB_OUTPUT
+          fi
 
       - uses: pnpm/action-setup@v4
-        if: ${{ steps.pkgman.outputs.package_manager == 'pnpm' }}
-        name: Install pnpm
-        id: pnpm-install
+        if: ${{ steps.pkgman.outputs.pm == 'pnpm' }}
+        with:
+          run_install: false
 
       - uses: actions/setup-node@v4
         with:
-          version: ${{ matrix.node }}
-          cache: ${{ steps.pkgman.outputs.cache }}
+          node-version: '20'
+          cache: ${{ steps.pkgman.outputs.pm }}
 
       - name: Install dependencies
-        run: ${{ steps.pkgman.outputs.package_manager }} install
+        run: |
+          if [ "${{ steps.pkgman.outputs.pm }}" = "pnpm" ]; then pnpm i --frozen-lockfile;
+          elif [ "${{ steps.pkgman.outputs.pm }}" = "yarn" ]; then yarn --frozen-lockfile;
+          else npm ci; fi
 
-      - name: Generate
-        run: ${{ steps.pkgman.outputs.package_manager }} run build
+      # >>> The important change is here: do a full pre-render <<<
+      - name: Pre-render site
+        run: |
+          if [ "${{ steps.pkgman.outputs.pm }}" = "pnpm" ]; then pnpm exec nuxt generate;
+          elif [ "${{ steps.pkgman.outputs.pm }}" = "yarn" ]; then yarn nuxt generate;
+          else npx nuxt generate; fi
         env:
-          NITRO_PRESET: github_pages
           NUXT_CONTENT_PREVIEW_API: https://api.nuxt.studio
           NUXT_UI_PRO_LICENSE: ${{ secrets.NUXT_UI_PRO_LICENSE }}
 
-      # Deployment job
+      # Keep your custom domain + disable Jekyll processing on Pages
+      - name: Add CNAME and .nojekyll
+        run: |
+          echo "poecommunity.help" > .output/public/CNAME
+          touch .output/public/.nojekyll
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
+          branch: gh-pages
           folder: ./.output/public
+
