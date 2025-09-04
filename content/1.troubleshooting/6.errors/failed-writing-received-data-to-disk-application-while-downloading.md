@@ -21,5 +21,10 @@ Try [Repairing the Client](/miscellaneous/other/repair-the-client) as a first st
 #### Try using a VPN
 If the issue is on-route, a VPN altering how your traffic gets routed can work around the problem.
 
-`ProtonVPN` is an example of a trusted VPN service with a free pricing plan which you can use for testing.
+`ProtonVPN` is an example of a trusted VPN service with a free plan which you can use for testing.
+#### Deleting certain client files
+::warning
+If trying this, ensure you do not delete the `content.ggpk` file.
+::
+Deleting the `.dll` and `.exe` files in the client's install folder, then running the launcher again, may fix the issue.
 ::
