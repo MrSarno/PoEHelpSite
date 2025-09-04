@@ -17,7 +17,7 @@ This error message is sometimes caused by server-side issues which you will need
 ::caution
 This step is not available for users of the standalone client on macOS. You may need to reinstall the game instead.
 ::
-Try [Repairing the Client](/miscellaneous/other/repair-the-client) as a first step
+Try [Repairing the Client](/miscellaneous/other/repair-the-client) as a first step.
 #### Try using a VPN
 If the issue is on-route, a VPN altering how your traffic gets routed can work around the problem.
 
