@@ -9,28 +9,28 @@ seo:
 ---
 
 ::tabs{.w-full}
-:::tabs-item{icon="i-lucide-grid-2x2" label="Windows"}
-::steps{level="4"}
+  :::tabs-item{icon="i-lucide-grid-2x2" label="Windows"}
+    ::steps{level="4"}
 #### Search Windows for `cmd`.
 #### Right-click on `Command Prompt` when it appears.
 #### Choose `Run as administrator`.
-::note
+      ::note
 You may be prompted to confirm this decision. This is normal.
-::
-#### Enter the following command.
-`ipconfig /flushdns`
-::
-:::
-:::tabs-item{icon="i-lucide-apple" label="macOS"}
-::steps{level="4"}
+      ::
+#### Enter the following command: `ipconfig /flushdns`
+    ::
+  :::
+  :::tabs-item{icon="i-lucide-apple" label="macOS"}
+      ::steps{level="4"}
 #### Open the Terminal.
 #### Enter the following command
   ```bash [Terminal]
   sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
   ```
 #### Close the Terminal window
-::tip
+      ::tip
 It is normal not to get any response to the above command; this is a sign it has been entered correctly.
-::
-:::
+      ::
+    ::
+  :::
 ::
