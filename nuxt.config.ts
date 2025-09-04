@@ -1,9 +1,10 @@
-// nuxt.config.ts
 import { defineNuxtConfig } from 'nuxt/config'
 import { readdirSync, statSync } from 'node:fs'
 import { join, relative } from 'node:path'
 
-function collectContentRoutes(root = 'content') {
+const stripPrefix = (seg: string) => seg.replace(/^\d+\./, '')
+
+function collectPrettyContentRoutes(root = 'content') {
     const routes = new Set<string>()
 
     const walk = (dir: string) => {
@@ -15,25 +16,31 @@ function collectContentRoutes(root = 'content') {
                 walk(p)
             } else if (name.endsWith('.md')) {
                 const rel = relative(root, p).replace(/\\/g, '/')
-                if (/\/index\.md$/i.test(rel)) {
-                    const r = '/' + rel.replace(/\/index\.md$/i, '')
-                    routes.add(r === '//' ? '/' : r)
-                } else {
-                    routes.add('/' + rel.replace(/\.md$/i, ''))
+                const parts = rel.split('/').map(stripPrefix)
+
+                // remove .md
+                parts[parts.length - 1] = parts[parts.length - 1].replace(/\.md$/i, '')
+
+                // handle index.md → directory route
+                if (parts[parts.length - 1].toLowerCase() === 'index') {
+                    parts.pop()
                 }
+
+                let route = '/' + parts.join('/')
+                if (route === '//') route = '/'
+
+                routes.add(route)
             }
         }
     }
 
     walk(root)
-    return Array.from(routes)
+    return Array.from(routes).sort()
 }
 
-const contentRoutes = collectContentRoutes()
-
+const contentRoutes = collectPrettyContentRoutes()
 console.log(`⚙️  Will prerender ${contentRoutes.length} content routes`)
-console.log(contentRoutes.slice(0, 25))
-
+console.log(contentRoutes.slice(0, 25)) //
 
 export default defineNuxtConfig({
     extends: ['docus'],
@@ -42,8 +49,10 @@ export default defineNuxtConfig({
 
     content: {
         documentDriven: true,
+        //
     },
 
+    //
     routeRules: {
         '/**': { prerender: true },
     },
