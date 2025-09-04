@@ -1,0 +1,39 @@
+# Perform a Power Cycle
+
+> How to power cycle your network devices
+
+A very common troubleshooting step is to power cycle your modem and router.
+
+This purges their caches, causes them to re-establish a connection to your ISP, and reinitialises their configuration.
+
+<steps level="4">
+
+#### Power off all devices connected to the router
+
+e.g. the device you're using to play Path of Exile
+
+#### Power off the router
+
+<tip>
+
+If your device has a battery, use the device's Reset button or temporarily remove the battery.
+
+</tip>
+
+#### Power off the modem
+
+<note>
+
+Can't find a seperate modem? These days, many people have a single device that act as both a router and a modem.
+
+</note>
+
+#### Wait for 60 seconds
+
+#### Power on the modem
+
+#### Power on the router
+
+#### Power on your other devices
+
+</steps>

@@ -1,0 +1,77 @@
+# Windows BSoDs
+
+> Troubleshooting Blue Screens of Death when playing Path of Exile
+
+<note>
+
+This page exclusively pertains to the "Blue Screen of Death" on Windows. It is not applicable to Macs.
+
+</note>
+
+<tip>
+
+A Windows Blue Screen of Death is not a single error; any problem that crashes Windows causes a BSoD.
+
+</tip>
+
+A [Windows MiniDump](https://learn.microsoft.com/en-us/troubleshoot/windows-client/performance/read-small-memory-dump-file) contains information such as the Stop Code from your Blue Screen of Death. Because BSoDs can be caused by missing system files, unstable hardware overclocks, corrupted drivers - and plenty more besides - nobody will be able to find a solution to the problem until they understand *which* Blue Screen of Death error you're getting. That's where a MiniDump proves to be invaluable.
+
+## Finding MiniDumps
+
+If any MiniDumps have been created by your computer, you can find them in the following location;
+
+`%SystemRoot%\Minidump`
+
+<tip>
+
+Copy & paste the above right into File Explorer's address bar!
+
+</tip>
+
+MiniDumps file names contain the data & time they were created at, and have the `.dmp` file extension. If you find one that has been recently created, excellent - that's just what we need to assist you.
+
+Otherwise, you may need to configure Windows to generate MiniDumps and then wait for the next Blue Screen of Death to occur.
+
+## Sharing the Diagnostics
+
+Many common hosting sites, such as [Imgur](https://imgur.com) and [Pastebin](https://pastebin.com), do not permit you to upload MiniDumps to them.
+
+Use a cloud storage service which allows you to create links to share uploaded files and folders with others.
+
+Common examples include Google Drive, Proton Drive, Microsoft OneDrive, and iCloud.
+
+Make sure that anyone who has access to the link will be able to view the files - ideally without needing to log into a service which they themselves may not use - and then [Create a Thread in Technical Support](/miscellaneous/other/create-a-thread-in-technical-support) and include the link to your MiniDump.
+
+## Enabling MiniDump Generation
+
+If your MiniDump folder, most likely located at `C:\Windows\Minidump`, is empty even after a Blue Screen of Death has occurred, then you will need to toggle on MiniDump generation;
+
+<steps level="4">
+
+#### Open the Windows Search bar
+
+#### Begin typing "View Advanced System Settings"
+
+#### Click on it when it appears
+
+#### Find the `Start-up and Recovery` section
+
+#### Click on the <kbd value="Settings..."></kbd> button in that section
+
+<tip>
+
+Your computer may pause for a moment, but it should recover swiftly.
+
+</tip>
+
+#### Ensure the `Write an event to the system log` box is ticked
+
+#### Ensure `Write debugging information` is set to `Small memory dump (256 KB)`
+
+#### Ensure `Small dump directory:` shows: %SystemRoot%\Minidump
+
+#### Confirm your changes
+
+#### Wait for the new Blue Screen of Death to occur so a Minidump can be created
+
+</steps>

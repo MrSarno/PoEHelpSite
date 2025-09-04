@@ -1,0 +1,90 @@
+# Disconnections
+
+> Getting disconnected from the game server
+
+<note>
+
+If you have missing portals or loot when logging back in, see the [Instance Crashes](/troubleshooting/crashes/instance) page instead.
+
+</note>
+
+<note>
+
+If you have gotten disconnected, you'll get an error message saying as much. Otherwise, visit the [Client Crashes](/troubleshooting/crashes/client) page instead.
+
+</note>
+
+## Troubleshooting
+
+<steps level="4">
+
+#### Check for programs performing updates
+
+Pause any [Background Downloads](/miscellaneous/other/background-downloads) that have been started.
+
+#### Prevent your OS from rapidly disabling and re-enabling your network adapter
+
+<note>
+
+This article is specific to Windows Operating Systems and does not have a clear macOS analogue.
+
+</note>
+
+Toggle off [Wireless Adapter Power Savings](/miscellaneous/other/wireless-adapter-power-savings).
+
+#### Power cycle your network devices
+
+[Perform a Power Cycle](/miscellaneous/other/perform-a-power-cycle) to resolve common connectivity issues.
+
+#### Switch to a wired connection
+
+Try to avoid, or at least mitigate, any [Wireless Connection Problems](/miscellaneous/other/wireless-connection-problems) you may be encountering.
+
+</steps>
+
+## Run a Test
+
+See the page on testing your [Server Connection](/information/server-connection).
+
+Then either [Create a Thread in Technical Support](/miscellaneous/other/create-a-thread-in-technical-support) or read below if you would like to try interpreting the results for yourself.
+
+## Understand the Test
+
+### The Different Columns
+
+An MTR log contains several columns, including;
+
+- **Hostname / IP** – The first "hop" is usually the router in your home; later hops belong to your ISP and backbone providers
+- **Loss %** – The packet loss recorded between you and that specific device
+- **Sent / Recv** – The number of packets sent, and responses received, during the test
+- **Best / Avrg / Wrst** – The minimum, average, and maximum latency (in milliseconds) to that hop
+
+### Rule Out False Positives
+
+Before we cover what to look for, we need to briefly cover what to rule out.
+
+The single most important thing to remember when reading WinMTR logs is what it is you are seeking to understand. If you are troubleshooting issues encountered when playing Path of Exile, you are looking for problems that affect **the final line**, as that is the game server.
+
+The only reason MTR tests include extensive debugging information for your connection to earlier hops is that, if you find an issue affecting your connection to the game server, you can then 'work backwards' to determine where that problem first emerges.
+
+If you have 12% packet loss on the final line, and your packet loss is bouncing all over the place from 5% to 20% for every hop, then it is likely your home router that is actually dropping the packets. By contrast, if you have latency spikes up to 850 ms that only begin on the penultimate line, that points to a congestion issue within the infrastructure of GGG's hosting provider.
+
+It is common for people first trying to read MTR logs to point to any instance of packet loss or latency spike they can see. Please remember that playing Path of Exile *does not involve* sending pings to your ISP's routers - therefore, how they respond to those pings is irrelevant.
+
+Begin at the bottom. Work backwards. Ignore any apparent issues that don't propagate throughout the file.
+
+### Examine the File
+
+#### Check for Packet Loss
+
+Packet loss can artificially induce latency spikes as, any time a packet is sent but not received, your game client has to wait for an acknowledgement that isn't going to come, before eventually re-sending the same packet. Unfortunately, GGG's proprietary netcode has historically not handled packet loss at all gracefully.
+
+Begin by assessing your connection on the final line of the log file. What we want to see is a 0 in the "Loss %" column, and the number of Sent and Recv packets being identical. This allows us to rule out packet loss as a potential cause for your latency spikes, as no packets to the server were dropped.
+
+If you find packet loss affecting your connection to the server, nothing else matters until that packet loss has been resolved.
+
+#### Latency Spikes
+
+If there is no packet loss plaguing your connection to GGG's server, then it is time to begin looking for latency spikes.
+
+Compare the Best, Average, and Worse latency values recorded when pinging the game server itself. If there is substantial difference between them, begin assessing earlier hops one-by-one to see where the unstable latency values first appear.
