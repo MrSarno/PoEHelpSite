@@ -21,7 +21,7 @@ This error message is sometimes caused by server-side issues which you will need
 If the issue is on-route, a VPN altering how your traffic gets routed can work around the problem.
 
 `ProtonVPN` is an example of a trusted VPN service with a free plan which you can use for testing.
-#### Temporarily disable or uninstall any third-party security software, including firewalls, which you have installed
+#### Temporarily disable or uninstall any third-party security software, including firewalls, which are installed
 ::warning
 Before doing so, ensure you know any account credentials or license keys you need to re-activate them later.
 ::
