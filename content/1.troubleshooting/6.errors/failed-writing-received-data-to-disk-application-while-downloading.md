@@ -24,7 +24,7 @@ Try closing the launcher, then right-clicking on the file and selecting `Run as 
 ::caution
 This step is not available for users of the standalone client on macOS. You may need to reinstall the game instead.
 ::
-Try [Repairing the Client](/miscellaneous/other/repair-the-client) as a first step.
+Try [Repairing the Client](/miscellaneous/other/repair-the-client).
 #### Try using a VPN
 If the issue is on-route, a VPN altering how your traffic gets routed can work around the problem.
 
