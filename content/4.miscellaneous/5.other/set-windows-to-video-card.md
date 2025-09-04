@@ -17,9 +17,9 @@ If using a desktop, it is recommended to [Connect Your Monitor Directly to the V
 #### Click on the :kbd{value="Add desktop app"} button
 #### Browse to the location of your `PathOfExile.exe` file
 The default locations are;
-- **Steam:** %ProgramFiles(x86)%\Steam\steamapps\common\Path of Exile
-- **Standalone:** %ProgramFiles(x86)%\Grinding Gear Games\Path of Exile
-- **Epic Games:** %ProgramFiles%\Epic Games\PathOfExile
+- **Steam:** `%ProgramFiles(x86)%\Steam\steamapps\common\Path of Exile`
+- **Standalone:** `%ProgramFiles(x86)%\Grinding Gear Games\Path of Exile`
+- **Epic Games:** `%ProgramFiles%\Epic Games\PathOfExile`
 ::tip
 Copy & paste the above right into File Explorer's address bar!
 ::
