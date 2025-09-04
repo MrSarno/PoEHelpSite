@@ -17,6 +17,6 @@ This error can be caused by DDoS attacks against GGG. In such cases, only connec
 If the issue is on-route, a VPN altering how your traffic gets routed can work around the problem.
 
 `ProtonVPN` is an example of a trusted VPN service with a free pricing plan which you can use for testing.
-#### /[macOS-Only] Quit Steam if using the Steam client
+#### [macOS-Only\] Quit Steam if using the Steam client
 Multiple people have reported that quitting Steam and running Path of Exile directly resolves the error on macOS.
 ::
