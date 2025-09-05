@@ -18,7 +18,7 @@ This website is neither affiliated with, nor endorsed by, Grinding Gear Games.
   ::card
   ---
   title: Performance
-  icon: trending-down
+  icon: i-lucide-trending-down
   to:
   target:
   ---
@@ -28,7 +28,7 @@ This website is neither affiliated with, nor endorsed by, Grinding Gear Games.
   ::card
   ---
   title: Connectivity
-  icon: network
+  icon: i-lucide-network
   to:
   target:
   ---
@@ -38,7 +38,7 @@ This website is neither affiliated with, nor endorsed by, Grinding Gear Games.
   ::card
   ---
   title: Stability
-  icon: server-crash
+  icon: i-lucide-server-crash
   to:
   target:
   ---
@@ -50,7 +50,7 @@ This website is neither affiliated with, nor endorsed by, Grinding Gear Games.
   ::card
   ---
   title: Error Messages
-  icon: mail-warning
+  icon: i-lucide-mail-warning
   to:
   target:
   ---
