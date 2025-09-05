@@ -13,6 +13,52 @@ The best resource for Path of Exile players in need of Technical Support.
 
 This website is neither affiliated with, nor endorsed by, Grinding Gear Games.
 
+:::card-group
+
+  ::card
+  ---
+  title: Performance
+  icon: trending-down
+  to:
+  target:
+  ---
+  [Sharp FPS Drops](/troubleshooting/fps/inconsistent)<br>[Low But Steady FPS](/troubleshooting/fps/consistent)</br>[FPS Drops Over Time](troubleshooting/fps/drops-over-time)
+  ::
+
+  ::card
+  ---
+  title: Connectivity
+  icon: network
+  to:
+  target:
+  ---
+  [Latency Spikes](/troubleshooting/lag/spikes)<br>[Constant High Ping](/troubleshooting/lag/constant)<br>[Disconnections](/troubleshooting/lag/disconnections)
+  ::
+
+  ::card
+  ---
+  title: Stability
+  icon: server-crash
+  to:
+  target:
+  ---
+ [Client Crashes](/troubleshooting/crashes/client)<br>
+ [macOS Kernel Panics](/troubleshooting/crashes/kernel-panic)<br>
+ [Windows Blue Screen of Death](/troubleshooting/crashes/bsod)
+  ::
+
+  ::card
+  ---
+  title: Error Messages
+  icon: mail-warning
+  to:
+  target:
+  ---
+  ["Could Not Overwrite Executable"](/troubleshooting/errors/could-not-overwrite-executable)<br>
+  ["No Results Found"](/troubleshooting/errors/no-results-found)<br>
+  ["Unable to Connect to Login Server"](/troubleshooting/errors/unable-to-connect-to-login-server)
+  ::
+:::
 ::u-page-section
 #title
 Just open the search bar and find what you need!
