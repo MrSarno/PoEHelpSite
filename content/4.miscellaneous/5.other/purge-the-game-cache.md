@@ -19,8 +19,7 @@ Deleting the game client's cache is a common troubleshooting step.
 Copy & paste the below right into File Explorer's address bar!
 ::
 `%AppData%\Path of Exile`
- 
- 
+<br><br>
 ## Files and Folders to Delete
 You should have one or more folders with `Cache` in their name - delete all of them.
 :::
@@ -30,15 +29,13 @@ You should have one or more folders with `Cache` in their name - delete all of t
 Can't find the _Library_ folder? Open Finder, click on :icon{name="i-lucide-circle-ellipsis"}, click on `Show View Options` and tick `Show Library Folder`.
 ::
 `~/Library/Caches/com.GGG.PathOfExile`
- 
- 
+<br><br>
 ## Files and Folders to Delete
-
 ### Files
 - `Cache.db`
 - `Cache.db-shm`
 - `Cache.db-wal`
-
+<br>
 ### Folders
 - `DailyDealCache`
 - `fsCachedData`
