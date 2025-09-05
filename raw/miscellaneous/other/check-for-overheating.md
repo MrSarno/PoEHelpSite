@@ -18,7 +18,7 @@ HWMonitor displays current values, minimum values, and maximum values. Open it b
 
 <tip>
 
-Ensure you click on the `SETUP · ENGLISH` button on the left; not the `TRY HWMONITOR PRO !` button on the right.
+Ensure you click on the `SETUP · ENGLISH` button on the left; **not** the `TRY HWMONITOR PRO !` button.
 
 </tip>
 
@@ -28,7 +28,7 @@ The final step of the setup wizard offers to display a `hwm_readme.txt`. You can
 
 <note>
 
-HWMonitor may require additional permissions to access temperature readings and the like. This is normal.
+HWMonitor may require additional permissions to access hardware sensors. This is normal.
 
 </note>
 
@@ -70,7 +70,7 @@ Stats is a free graphical application. Search for it using Spotlight or open it 
 
 <tip>
 
-Click on the CPU utilisation percentage to see a pop-up, which includes a temperature reading in the top-left corner.
+Click on the CPU utilisation percentage to see a pop-up, which includes a temperature reading.
 
 </tip>
 </steps>

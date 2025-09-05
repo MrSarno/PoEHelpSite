@@ -18,6 +18,6 @@ Pause any [Background Downloads](/miscellaneous/other/background-downloads) that
 
 If Path of Exile - or other software running on your computer - fails to adequately release RAM as it runs then your computer can run out of memory, which will cause significant performance problems.
 
-[Create a Thread in Technical Support](/miscellaneous/other/create-a-thread-in-technical-support if you would like help looking into this.
+[Create a Thread in Technical Support](/miscellaneous/other/create-a-thread-in-technical-support) if you would like help looking into this.
 
 </steps>
