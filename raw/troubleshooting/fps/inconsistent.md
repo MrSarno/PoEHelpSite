@@ -4,6 +4,10 @@
 
 <steps level="4">
 
+#### Overheating
+
+The top priority is to [Check for Overheating](/miscellaneous/other/check-for-overheating).
+
 #### Disable vibrations if using a controller
 
 [Turn Off the Vibration Setting](/miscellaneous/other/turn-off-vibration-setting) as it introduces severe stutter.
