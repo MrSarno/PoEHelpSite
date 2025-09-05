@@ -50,8 +50,6 @@ Its name will most likely contain `WiFi`, `Wi-Fi`, or `Wireless`.
 
 </tip>
 
-#### Under "Power Saving Mode" set the setting to `Maximum Performance`.
-
 #### Click on <kbd value="Properties"></kbd>.
 
 #### Switch to the `Power Management` tab.
