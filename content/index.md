@@ -126,7 +126,7 @@ Just open the search bar and find what you need!
   to:
   ---
   #title
-  Just [search]{.text-primary} for whatever you need
+  [Just search]{.text-primary} for whatever you need
   
   #description
   Know exactly what you're looking for? No need to go digging for it - just search for e.g. "`disconnection`" and instantly find the pages you need.
