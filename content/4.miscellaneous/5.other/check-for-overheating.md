@@ -10,14 +10,12 @@ seo:
 
 Your processor or video card overheating is not only capable of causing short-term harm to your system's performance - it can result in permanent physical damage being inflicted on your computer.
 
-If you believe your CPU or video card may be overheating, follow the steps below to investigate that possibility;
-
 ::tabs{.w-full}
   :::tabs-item{icon="i-lucide-grid-2x2" label="Windows"}
+::tip
+HWMonitor displays current values, minimum values, and maximum values. Open it before playing!
+::
     ::steps{level="4"}
-      ::tip
-HWMonitor displays current values, minimum values, and maximum values. Open it before you start playing!
-      ::
 #### Download and install HWMonitor
       ::tip
 Ensure you click on the `SETUP · ENGLISH` button on the left; not the `TRY HWMONITOR PRO !` button on the right.
@@ -32,10 +30,10 @@ When you're finished gaming, either look at the temperature values yourself, or 
     ::
   :::
   :::tabs-item{icon="i-lucide-apple" label="macOS"}
-    ::steps{level="4"}
-      ::note
+::note
 This guide assumes you have Homebrew installed. See [here](/miscellaneous/mac/homebrew-install) for a guide on how to install Homebrew.
-      ::
+::
+    ::steps{level="4"}
 #### Open the Terminal.
 #### Enter the following command
   ```bash [Terminal]
