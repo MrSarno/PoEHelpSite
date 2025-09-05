@@ -19,7 +19,11 @@ Copy & paste the below right into File Explorer's address bar!
 
 </tip>
 
-`%AppData%\Path of Exile`
+`%AppData%\Path of Exile`<br />
+
+<br />
+
+
 
 ## Files and Folders to Delete
 
@@ -43,7 +47,11 @@ Can't find the *Library* folder? Open Finder, click on <icon name="i-lucide-circ
 
 </tip>
 
-`~/Library/Caches/com.GGG.PathOfExile`
+`~/Library/Caches/com.GGG.PathOfExile`<br />
+
+<br />
+
+
 
 ## Files and Folders to Delete
 
@@ -51,7 +59,7 @@ Can't find the *Library* folder? Open Finder, click on <icon name="i-lucide-circ
 
 - `Cache.db`
 - `Cache.db-shm`
-- `Cache.db-wal`
+- `Cache.db-wal`<br />
 
 ### Folders
 

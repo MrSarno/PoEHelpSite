@@ -20,7 +20,7 @@ The Windows client allows you to choose between the `DirectX 11`, `DirectX 12`, 
 
 <warning>
 
-The macOS client does not presently include this setting.
+The macOS client only supports Vulkan - and, thus, does not presently include this setting.
 
 </warning>
 
