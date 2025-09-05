@@ -38,7 +38,6 @@ You may need to click on it one or two times to expand it.
 ::tip
 Its name will most likely contain `WiFi`, `Wi-Fi`, or `Wireless`.
 ::
-#### Under "Power Saving Mode" set the setting to `Maximum Performance`.
 #### Click on :kbd{value="Properties"}.
 #### Switch to the `Power Management` tab.
 #### Untick the `Allow the computer to turn off this device to save power` box.
