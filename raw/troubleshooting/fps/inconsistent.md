@@ -4,9 +4,9 @@
 
 <steps level="4">
 
-#### Overheating
+#### Check for Overheating
 
-The top priority is to [Check for Overheating](/miscellaneous/other/check-for-overheating).
+The top priority is to [Check for Overheating](/miscellaneous/other/check-for-overheating) of your CPU or video card.
 
 #### Disable vibrations if using a controller
 

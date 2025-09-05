@@ -14,9 +14,6 @@ If you believe your CPU or video card may be overheating, follow the steps below
 HWMonitor displays current values, minimum values, and maximum values. Open it before you start playing!
 
 </tip>
-</steps>
-</tabs-item>
-</tabs>
 
 #### Download and install HWMonitor
 
@@ -39,8 +36,9 @@ HWMonitor may require additional permissions to access temperature readings and 
 #### Run HWMonitor in the background while you play
 
 When you're finished gaming, either look at the temperature values yourself, or [Create a Thread in Technical Support](/miscellaneous/other/create-a-thread-in-technical-support) and show us screenshots of its output.
-::
-:::
+
+</steps>
+</tabs-item>
 
 <tabs-item icon="i-lucide-apple" label="macOS">
 <steps level="4">
@@ -77,8 +75,7 @@ Click on the CPU utilisation percentage to see a pop-up, which includes a temper
 </tip>
 </steps>
 </tabs-item>
-
-::
+</tabs>
 
 ### Further Help
 
