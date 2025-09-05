@@ -59,7 +59,7 @@ jobs:
 
       - name: Add CNAME and .nojekyll
         run: |
-          echo "poecommunity.help" > .output/public/CNAME
+          echo "www.poecommunity.help" > .output/public/CNAME
           touch .output/public/.nojekyll
 
       - name: Deploy 🚀
