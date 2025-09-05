@@ -34,12 +34,12 @@ Can't find the _Library_ folder? Open Finder, click on :icon{name="i-lucide-circ
  
 ### Files and Folders to Delete
 
-### Files
+#### Files
 - `Cache.db`
 - `Cache.db-shm`
 - `Cache.db-wal`
 
-### Folders
+#### Folders
 - `DailyDealCache`
 - `fsCachedData`
 - `MOTDCache`
