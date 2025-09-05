@@ -5,7 +5,7 @@
   <UFooter>
     <template #left>
       <div class="text-sm text-muted">
-        Copyright © John Sweeney, 2025
+        © 2025 John Sweeney
       </div>
     </template>
     <template #right>
