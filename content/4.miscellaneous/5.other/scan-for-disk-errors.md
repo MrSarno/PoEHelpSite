@@ -1,11 +1,11 @@
 ---
 title: Scan for Disk Errors
-description: Have your OS scan your drive to find logical or physical problems
+description: Have your OS scan your drive to find bad sectors and other errors
 navigation:
   icon:
 seo:
   title: Scan for Disk Errors
-  description: Have your OS examine your to find logical or physical problems.
+  description: Have your OS examine your to find bad sectors and other errors.
 ---
 
 ::tabs{.w-full}
