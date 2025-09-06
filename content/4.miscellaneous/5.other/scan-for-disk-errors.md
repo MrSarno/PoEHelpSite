@@ -22,7 +22,7 @@ You may be prompted to confirm this decision. This is normal.
     ::
   :::
   :::tabs-item{icon="i-lucide-apple" label="macOS"}
-  ::steps{level="4"}
+    ::steps{level="4"}
 #### Open Disk Utility
 #### In the menubar, click on `View` > `Show All Devices`
 #### Select each listed device in the `Internal` section one at a time and click on `First Aid`
