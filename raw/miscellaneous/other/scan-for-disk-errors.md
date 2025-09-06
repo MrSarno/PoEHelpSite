@@ -17,16 +17,12 @@
 You may be prompted to confirm this decision. This is normal.
 
 </note>
-</steps>
 
 #### Enter the following command: `CHKDSK /r`
 
 #### Restart your computer when you are ready for the check to be performed
 
-```text
-::
-```
-
+</steps>
 </tabs-item>
 
 <tabs-item icon="i-lucide-apple" label="macOS">
