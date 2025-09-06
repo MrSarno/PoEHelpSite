@@ -1,6 +1,6 @@
 # Scan for Disk Errors
 
-> Have your OS scan your drive to find logical or physical problems
+> Have your OS scan your drive to find bad sectors and other errors
 
 <tabs className="w-full">
 <tabs-item icon="i-lucide-grid-2x2" label="Windows">
@@ -26,13 +26,22 @@ You may be prompted to confirm this decision. This is normal.
 </tabs-item>
 
 <tabs-item icon="i-lucide-apple" label="macOS">
+<steps level="4">
+
+#### Open Disk Utility
+
+#### In the menubar, click on `View` > `Show All Devices`
+
+#### Select each listed device in the `Internal` section one at a time and click on `First Aid`
+
 <warning>
 
-macOS-specific troubleshooting is currently being worked on for this.
+Running First Aid on your startup drive will temporarily make your Mac unusable until the process finishes.
 
 </warning>
 
-Please view Apple's page for repairing Mac storage devices [here](https://support.apple.com/en-us/102611).
+::
 
+</steps>
 </tabs-item>
 </tabs>
