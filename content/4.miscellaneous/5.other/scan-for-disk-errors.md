@@ -18,7 +18,7 @@ seo:
 You may be prompted to confirm this decision. This is normal.
       ::
 #### Enter the following command: `CHKDSK /r`
-#### Restart your computer when you are ready for the check to be performed
+#### Restart your computer when you are ready for the check to be performed.
     ::
   :::
   :::tabs-item{icon="i-lucide-apple" label="macOS"}
