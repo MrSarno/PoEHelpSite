@@ -20,7 +20,7 @@ You may be prompted to confirm this decision. This is normal.
 
 #### Enter the following command: `CHKDSK /r`
 
-#### Restart your computer when you are ready for the check to be performed
+#### Restart your computer when you are ready for the check to be performed.
 
 </steps>
 </tabs-item>
@@ -39,9 +39,6 @@ You may be prompted to confirm this decision. This is normal.
 Running First Aid on your startup drive will temporarily make your Mac unusable until the process finishes.
 
 </warning>
-
-::
-
 </steps>
 </tabs-item>
 </tabs>
