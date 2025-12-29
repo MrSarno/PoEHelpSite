@@ -13,6 +13,9 @@
 The Windows start button is typically in the bottom-left corner of your screen.
 
 </note>
+</steps>
+</tabs-item>
+</tabs>
 
 #### Click on `Run`
 
@@ -31,8 +34,8 @@ dxdiag
 Wait for the green progress bar to disappear first.
 
 </warning>
-</steps>
-</tabs-item>
+
+:::
 
 <tabs-item icon="i-lucide-apple" label="macOS">
 <steps level="4">
@@ -59,4 +62,5 @@ You may need to scroll down to see this button.
 
 </steps>
 </tabs-item>
-</tabs>
+
+::
