@@ -302,9 +302,6 @@ After a few seconds you may be prompted to allow the download
 Copy & paste the above right into File Explorer's address bar!
 
 </tip>
-</steps>
-</tabs-item>
-</tabs>
 
 #### Extract the files from the zip archive
 
@@ -325,9 +322,7 @@ Depending on your settings, the folder may have opened automatically.
 
 #### Open the `WinMTR_x64` folder
 
-```text
-::
-```
+</steps>
 
 ### Run WinMTR
 
@@ -346,8 +341,7 @@ Depending on your settings, the folder may have opened automatically.
 #### Click the `Copy Text to clipboard` button
 
 </steps>
-
-:::
+</tabs-item>
 
 <tabs-item icon="i-lucide-apple" label="macOS">
 <note>
@@ -415,5 +409,4 @@ First describe your issue, then click on the forum's `Quote` button, and *then* 
 </tip>
 </steps>
 </tabs-item>
-
-::
+</tabs>
