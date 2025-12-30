@@ -12,6 +12,7 @@ PoE Community Help
 The best resource for Path of Exile players in need of Technical Support.
 
 This website is neither affiliated with, nor endorsed by, Grinding Gear Games.
+::
 
 ::u-page-section
   :::card-group
@@ -61,6 +62,7 @@ This website is neither affiliated with, nor endorsed by, Grinding Gear Games.
     ::
   :::
 ::
+
 ::u-page-section
 #title
 Just open the search bar and find what you need!
